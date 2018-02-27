@@ -12,7 +12,7 @@ namespace Private_API
 
         public static MySqlConnection conn()
         {
-            string conn_string = "server=195.96.246.36;port=3307;database=aladin_surfex;username=apache;password=webpage;";
+            string conn_string = "server=;port=;database=;username=;password=;";
 
             MySqlConnection conn = new MySqlConnection(conn_string);
 
